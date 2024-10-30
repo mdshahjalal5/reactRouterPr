@@ -22,7 +22,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/"
+            to="/users"
             className="text-gray-300 hover:text-white"
             activeClassName="text-white"
           >
@@ -30,14 +30,14 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/about"
+            to="/posts"
             className="text-gray-300 hover:text-white"
             activeClassName="text-white"
           >
             Posts
           </NavLink>
           <NavLink
-            to="/services"
+            to="/about"
             className="text-gray-300 hover:text-white"
             activeClassName="text-white"
           >
@@ -83,14 +83,14 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/about"
+            to="/users"
             className="block text-gray-300 hover:text-white px-4 py-2"
             activeClassName="text-white"
           >
             Users
           </NavLink>
           <NavLink
-            to="/services"
+            to="/posts"
             className="block text-gray-300 hover:text-white px-4 py-2"
             activeClassName="text-white"
           >
