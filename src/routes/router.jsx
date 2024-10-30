@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Users from "../components/Users";
 import Posts from "../components/Posts";
+import Contact from "../components/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <div>Hellow I am home page mre </div>,
       },
       {
         path: "/about",
@@ -29,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
