@@ -24,9 +24,16 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "git-scripts": "^0.6.4",
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
+    "surge": "^0.24.6",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.10"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain outstanding-goldfish.surge.sh"
+    }
   }
 }
