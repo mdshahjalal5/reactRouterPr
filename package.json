@@ -33,7 +33,10 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "npx surge --project ./dist --domain outstanding-goldfish.surge.sh"
+      "pre-push": "npm run deploy"
     }
+  },
+  "scripts": {
+    "deploy": "surge --project ./ --domain https://outstanding-goldfish.surge.sh/"
   }
 }
