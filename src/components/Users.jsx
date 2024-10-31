@@ -6,7 +6,7 @@ export default function Users() {
 
   return (
     <>
-      <div className="grid grid-cols-3 ">
+      <div className="md:grid grid-cols-3 ">
         {users.map((user) => {
           return <User key={user.id} user={user}></User>;
         })}

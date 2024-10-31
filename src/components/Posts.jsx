@@ -7,7 +7,7 @@ export default function Posts() {
   console.log(posts);
 
   return (
-    <div className="grid grid-cols-4 gap-4 ">
+    <div className="md:grid grid-cols-4 gap-4 m-3 my-6">
       {posts.map((post, id) => {
         return <Post key={id} post={post}></Post>;
       })}

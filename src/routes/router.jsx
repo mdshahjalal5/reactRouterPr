@@ -6,7 +6,6 @@ import About from "../components/About";
 import Users from "../components/Users";
 import Posts from "../components/Posts";
 import Contact from "../components/Contact";
-import Post from "../components/Post";
 import PostDetails from "../components/PostDetails";
 import UserDetails from "../components/UserDetails";
 
